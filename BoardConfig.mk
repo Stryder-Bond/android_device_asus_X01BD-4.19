@@ -20,7 +20,7 @@ TARGET_BOOTLOADER_BOARD_NAME := sdm660
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := asus/X01BD_defconfig
+TARGET_KERNEL_CONFIG := vendor/X01BD_defconfig
 
 # Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
